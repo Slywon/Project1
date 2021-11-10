@@ -83,7 +83,7 @@ To use sysctll module:  name: Use more memory sysctl:name:vm.max_map_count valeu
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Successfully configuring ELK instance looks like this](https://github.com/Slywon/Project1/blob/febdf4f2adcfc61561fefd70fed5134d32722f04/screenshotsuccessfulconfigelkinstance.png)
+[Successfully configuring ELK instance looks like this.](https://github.com/Slywon/Project1/blob/febdf4f2adcfc61561fefd70fed5134d32722f04/screenshotsuccessfulconfigelkinstance.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

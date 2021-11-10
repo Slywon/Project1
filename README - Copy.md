@@ -35,12 +35,12 @@ Metricbeat is able to help you monitor servers as it collects metrics from the s
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
-| Name     | Function | IP Address   | Operating System |
-|----------|----------|--------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1     | Linux            |
-| Balancer |          |52.229.37.248 |                  |
-| Servers  | Service  | 10.0.0.5/6   |                  |
-| Elk      |Monitors  | 10.1.0.4     |                  |
+| Name     | Function  | IP Address   | Operating System |
+|----------|-----------|--------------|------------------|
+| Jump Box | Gateway   | 10.0.0.1     | Linux            |
+| Web 1    | Server    | 10.0.0.5     | Linux            |
+| Web 2    | Server    | 10.0.0.6     | Linux            |
+| Elk      | Log Server| 10.1.0.4     | Linux            |
 
 ### Access Policies
 

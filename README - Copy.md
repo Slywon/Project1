@@ -6,21 +6,6 @@ https://drive.google.com/file/d/1SdAkdIedJS60YqbYH1-PNQrRn1MVoAfY/view?usp=shari
 
 The following files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-name: Install elk hosts: elk become: true tasks:
-name: set mem value ansible.posix.sysctl: name: vm.max_map_count value: 262144
-
-name: Use more memory sysctl: name: vm.max_map_count value: "262144" state: present reload: yes
-
-name: docker.io apt: force_apt_get: yes update_cache: yes name: docker.io state: present
-
-name: Install pip3 apt: force_apt_get: yes name: python3-pip state: present
-
-name: Install Docker python module pip: name: docker state: present
-
-name: download and launch a docker elk container docker_container: name: elk image: sebp/elk:761 state: started restart_policy: always published_ports: - 5601:5601 - 9200:9200 - 5044:5044
-
-
-
 
 
 This document contains the following details:

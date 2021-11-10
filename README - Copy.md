@@ -33,7 +33,7 @@ Filebeats can be used to watch for log directories or specific log files.
 Metricbeat is able to help you monitor servers as it collects metrics from the system and services running on the server.  
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
 
 | Name     | Function  | IP Address   | Operating System |
 |----------|-----------|--------------|------------------|

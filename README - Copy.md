@@ -69,9 +69,15 @@ The main advantage of automating configuration with Anislbe is that the program 
 
 The playbook implements the following tasks:
 
-To use apt module:  name:Install docker.io apt:update_cache:yes name:docker.io state:present
+To use Docker module:  name:Install docker.io apt:update_cache:yes name:docker.io state:present
 
-To use apt module:  name:Install pip3 apt:force_apt_get:yes name:python3-pip state:present 
+To use Pip module:  name:Install pip3 apt:force_apt_get:yes name:python3-pip state:present 
+
+To use Python:  name: Install Docker python module pip: name: docker state: present 
+
+To use command module:  name: Increase virtual memory command: sysctl -w vm.max_map_count=262144
+
+To use sysctll module:  name: Use more memory sysctl:name:vm.max_map_count valeu:"262144"state:present reload:yes
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 

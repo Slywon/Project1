@@ -54,11 +54,13 @@ The Jump Box can SSH to the Elk through port 22
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name          | Publicly Accessible | Allowed IP Addresses |
+|---------------|---------------------|----------------------|
+| Jump Box      | Yes                 | 67.182.212.206       |
+| Load Balancer | Yes                 | 52.229.37.248        |
+| Web 1         | No                  | 10.0.0.5             |
+| Web 2         | No                  | 10.0.0.6             |
+| ELK Server    | Yes                 | 67.182.212.206       |
 
 ### Elk Configuration
 

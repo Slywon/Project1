@@ -100,9 +100,9 @@ MetricBeat does as the name suggests and collects metrics on the system for exam
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the configuration file to your web VMs.
+- Update the /etc/ansible/hosts file to include the IP addresses of the ELK server, VM, and webservers.  
+- Run the playbook, and navigate to http://20.83.226.255:5601/app/kibana to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_

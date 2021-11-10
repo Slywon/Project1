@@ -79,9 +79,11 @@ To use command module:  name: Increase virtual memory command: sysctl -w vm.max_
 
 To use sysctll module:  name: Use more memory sysctl:name:vm.max_map_count valeu:"262144"state:present reload:yes
 
+[DockerContainerModule](https://github.com/Slywon/Project1/blob/1f8dae9316bac26186d349730800ec62de433a0b/Docker_container_module_screenshot)
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[DockerContainerModule](https://github.com/Slywon/Project1/blob/1f8dae9316bac26186d349730800ec62de433a0b/Docker_container_module_screenshot)
+[Successfully configuring ELK instance looks like this](https://github.com/Slywon/Project1/blob/febdf4f2adcfc61561fefd70fed5134d32722f04/screenshotsuccessfulconfigelkinstance.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

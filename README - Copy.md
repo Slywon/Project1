@@ -69,6 +69,7 @@ The main advantage of automating configuration with Anislbe is that the program 
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+ 
  name:Install docker.io apt:update_cache:yes name:docker.io state:present
 - ...
 

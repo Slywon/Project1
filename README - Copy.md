@@ -8,6 +8,7 @@ The following files have been tested and used to generate a live ELK deployment 
 
 Click Link to view Elk-Playbook
 https://docs.google.com/document/d/1vMusWICrrrCwiz38tOSiwu0Y9bDw8ir9aBFiqgAFPRo/edit?usp=sharing
+
 Click Link to view Filebeat-Playbook
 https://docs.google.com/document/d/1h_wC04IJgCAggkhUdcfUrct9aqpFVnBflAWfgTbqfcQ/edit?usp=sharing
 

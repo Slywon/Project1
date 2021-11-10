@@ -41,7 +41,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 |----------|----------|--------------|------------------|
 | Jump Box | Gateway  | 10.0.0.1     | Linux            |
 | Balancer |          |52.229.37.248 |                  |
-| Servers  |          | 10.0.0.5/6   |                  |
+| Servers  | Service  | 10.0.0.5/6   |                  |
 | Elk      |Monitors  | 10.1.0.4     |                  |
 
 ### Access Policies

@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 https://drive.google.com/file/d/1SdAkdIedJS60YqbYH1-PNQrRn1MVoAfY/view?usp=sharing
 
-The following files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+The following files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 Click Link to view Elk-Playbook
 https://docs.google.com/document/d/1vMusWICrrrCwiz38tOSiwu0Y9bDw8ir9aBFiqgAFPRo/edit?usp=sharing

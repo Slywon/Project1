@@ -70,8 +70,10 @@ The main advantage of automating configuration with Anislbe is that the program 
 The playbook implements the following tasks:
 
 To use apt module: 
+ 
  name:Install docker.io apt:update_cache:yes name:docker.io state:present
 To use apt module:
+ 
  name:Install pip3 apt:force_apt_get:yes name:python3-pip state:present 
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
